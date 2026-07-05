@@ -1,0 +1,1012 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tochigi 6-Day Self-Drive Travel Guide</title>
+<style>
+:root {
+  --navy:#0f2742; --blue:#235d85; --sky:#eaf5fb; --paper:#fbfaf6; --ink:#202733;
+  --muted:#657282; --green:#2d7c63; --gold:#c79740; --line:#d9e1e7; --rose:#f7e8e6;
+}
+* {box-sizing:border-box}
+body {margin:0; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; color:var(--ink); background:linear-gradient(180deg,#f6fbff 0,#fbfaf6 40%);}
+header {background:linear-gradient(135deg,var(--navy),#173f63); color:#fff; padding:42px 22px 28px; position:sticky; top:0; z-index:5; box-shadow:0 8px 30px rgba(0,0,0,.16)}
+.hero {max-width:1160px; margin:auto; display:grid; grid-template-columns:1.2fr .8fr; gap:28px; align-items:end}
+h1 {font-size:clamp(30px,5vw,58px); margin:0 0 10px; line-height:1.02; letter-spacing:-.04em}
+.subtitle {font-size:18px; max-width:760px; opacity:.92; line-height:1.5}
+.quick {background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.22); border-radius:22px; padding:18px}
+.quick div {display:flex; justify-content:space-between; gap:10px; border-bottom:1px solid rgba(255,255,255,.18); padding:8px 0}
+.quick div:last-child {border-bottom:0}
+nav {background:#fff; border-bottom:1px solid var(--line); position:sticky; top:0; z-index:6; overflow:auto; white-space:nowrap; box-shadow:0 4px 14px rgba(15,39,66,.06)}
+nav .links {max-width:1160px; margin:auto; display:flex; gap:8px; padding:10px 16px}
+nav a {color:var(--navy); text-decoration:none; padding:9px 12px; border-radius:999px; font-weight:700; font-size:14px}
+nav a:hover {background:var(--sky)}
+main {max-width:1160px; margin:0 auto; padding:26px 18px 72px}
+section {margin:28px 0 44px}
+.section-head {display:flex; justify-content:space-between; align-items:end; gap:20px; margin-bottom:16px}
+h2 {font-size:32px; margin:0; letter-spacing:-.03em; color:var(--navy)}
+.hint {color:var(--muted); margin:6px 0 0}
+.kpi-grid {display:grid; grid-template-columns:repeat(5,1fr); gap:14px}
+.kpi {background:#fff; border:1px solid var(--line); border-radius:18px; padding:17px; box-shadow:0 8px 22px rgba(15,39,66,.06)}
+.kpi b {display:block; font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:.08em}
+.kpi span {display:block; margin-top:7px; font-weight:800; color:var(--navy)}
+.day-card {background:#fff; border:1px solid var(--line); border-radius:24px; padding:20px; margin:16px 0; box-shadow:0 10px 30px rgba(15,39,66,.08)}
+.day-head {display:flex; justify-content:space-between; gap:20px; border-bottom:1px solid var(--line); padding-bottom:12px; margin-bottom:14px}
+.day-pill {display:inline-block; background:var(--navy); color:#fff; padding:7px 12px; border-radius:999px; font-size:13px; font-weight:800}
+.day-card h3 {margin:9px 0 0; font-size:24px; color:var(--navy)}
+.badges {display:flex; flex-wrap:wrap; justify-content:flex-end; align-content:flex-start; gap:8px}
+.badges span, .status {background:var(--sky); color:var(--blue); padding:7px 10px; border-radius:999px; font-weight:800; font-size:12px}
+.day-grid {display:grid; grid-template-columns:repeat(3,1fr); gap:12px}
+.day-grid div {background:#f8fbfd; border-radius:14px; padding:12px}
+.day-grid strong {color:var(--navy)}
+.day-grid p {margin:.35rem 0 0; line-height:1.45}
+.check {display:flex; align-items:center; gap:8px; margin-top:14px; color:var(--muted); font-weight:700}
+input[type="checkbox"] {width:18px; height:18px; accent-color:var(--green)}
+.toolbar {display:flex; flex-wrap:wrap; gap:8px; margin:8px 0 14px}
+button {border:1px solid var(--line); background:#fff; border-radius:999px; padding:9px 12px; cursor:pointer; font-weight:800; color:var(--navy)}
+button.active, button:hover {background:var(--navy); color:#fff}
+.table-wrap {overflow:auto; border:1px solid var(--line); border-radius:18px; background:#fff; box-shadow:0 8px 22px rgba(15,39,66,.06)}
+table {width:100%; border-collapse:collapse; font-size:14px}
+th,td {padding:12px 14px; border-bottom:1px solid var(--line); vertical-align:top}
+th {background:#f0f6fa; color:var(--navy); text-align:left; position:sticky; top:0}
+tr:last-child td {border-bottom:0}
+.grid-2 {display:grid; grid-template-columns:1fr 1fr; gap:18px}
+.panel {background:#fff; border:1px solid var(--line); border-radius:22px; padding:20px; box-shadow:0 8px 22px rgba(15,39,66,.06)}
+.panel h3 {margin-top:0; color:var(--navy)}
+.season-grid {display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
+.season-card {background:#fff; border:1px solid var(--line); border-radius:18px; padding:16px}
+.season-card h4 {margin:0 0 8px; color:var(--green); font-size:19px}
+.checklist {list-style:none; padding:0; margin:0; display:grid; grid-template-columns:repeat(2,1fr); gap:10px}
+.checklist li {background:#fff; border:1px solid var(--line); border-radius:14px; padding:12px}
+.checklist label {display:flex; gap:10px; align-items:flex-start}
+small {color:var(--muted)}
+.callout {border-left:5px solid var(--gold); background:#fff8ea; padding:16px 18px; border-radius:14px; line-height:1.55}
+footer {padding:24px; text-align:center; color:var(--muted); border-top:1px solid var(--line); background:#fff}
+@media (max-width:900px) {
+  header {position:relative}
+  nav {background:#fff; border-bottom:1px solid var(--line); position:sticky; top:0; z-index:6; overflow:auto; white-space:nowrap; box-shadow:0 4px 14px rgba(15,39,66,.06)}
+  .hero,.grid-2,.day-grid,.season-grid,.kpi-grid,.checklist {grid-template-columns:1fr}
+  .day-head {flex-direction:column}
+  .badges {justify-content:flex-start}
+}
+@media print {
+  header, nav, .toolbar, button {display:none}
+  body {background:#fff}
+  .day-card,.panel,.table-wrap,.season-card,.kpi {box-shadow:none; break-inside:avoid}
+}
+
+.mobile-title {
+  display:none;
+  background:#0f2742;
+  color:#fff;
+  padding:12px 16px;
+}
+.mobile-title strong {
+  display:block;
+  font-size:18px;
+  line-height:1.1;
+}
+.mobile-title span {
+  display:block;
+  font-size:12px;
+  opacity:.85;
+  margin-top:3px;
+}
+@media (max-width: 760px) {
+  body {
+    font-size:15px;
+    background:#fbfaf6;
+  }
+  .mobile-title {
+    display:block;
+    position:sticky;
+    top:0;
+    z-index:8;
+  }
+  nav {
+    top:50px !important;
+    z-index:7;
+  }
+  nav .links {
+    padding:8px 10px;
+    gap:6px;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+  }
+  nav a {
+    flex:0 0 auto;
+    font-size:13px;
+    padding:8px 10px;
+  }
+  main {
+    padding:18px 12px 48px !important;
+  }
+  section {
+    margin:20px 0 32px;
+  }
+  h2 {
+    font-size:24px;
+  }
+  .hint {
+    font-size:14px;
+  }
+  .kpi-grid {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+  }
+  .kpi {
+    padding:12px;
+    border-radius:14px;
+  }
+  .kpi b {
+    font-size:10px;
+  }
+  .kpi span {
+    font-size:15px;
+  }
+  .callout {
+    padding:13px 14px;
+    font-size:14px;
+  }
+  .day-card {
+    border-radius:18px;
+    padding:14px;
+    margin:12px 0;
+  }
+  .day-head {
+    gap:8px;
+    margin-bottom:10px;
+  }
+  .day-card h3 {
+    font-size:20px;
+    margin-top:7px;
+  }
+  .day-grid {
+    grid-template-columns:1fr !important;
+    gap:8px;
+  }
+  .day-grid div {
+    padding:10px;
+  }
+  .badges {
+    gap:6px;
+  }
+  .badges span,
+  .status {
+    font-size:11px;
+    padding:6px 8px;
+  }
+  .toolbar {
+    position:sticky;
+    top:95px;
+    z-index:6;
+    background:#fbfaf6;
+    padding:6px 0;
+    overflow-x:auto;
+    flex-wrap:nowrap;
+    -webkit-overflow-scrolling:touch;
+  }
+  button {
+    flex:0 0 auto;
+    font-size:13px;
+    padding:8px 10px;
+  }
+  .table-wrap {
+    border-radius:14px;
+  }
+  table {
+    font-size:13px;
+    min-width:760px;
+  }
+  th, td {
+    padding:9px 10px;
+  }
+  .season-grid,
+  .grid-2,
+  .checklist {
+    grid-template-columns:1fr !important;
+  }
+  .season-card,
+  .panel,
+  .checklist li {
+    border-radius:14px;
+    padding:13px;
+  }
+  .section-head {
+    display:block;
+  }
+}
+@media (max-width: 420px) {
+  .kpi-grid {
+    grid-template-columns:1fr;
+  }
+  .mobile-title strong {
+    font-size:17px;
+  }
+}
+
+
+@media (max-width: 760px) {
+  .table-wrap {
+    overflow:visible;
+    border:0;
+    background:transparent;
+    box-shadow:none;
+  }
+  table {
+    min-width:0;
+  }
+  table thead {
+    display:none;
+  }
+  table, tbody, tr, td {
+    display:block;
+    width:100%;
+  }
+  table tr {
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:14px;
+    margin:10px 0;
+    padding:8px 10px;
+    box-shadow:0 6px 18px rgba(15,39,66,.05);
+  }
+  table td {
+    border-bottom:1px solid var(--line);
+    padding:9px 4px;
+  }
+  table td:last-child {
+    border-bottom:0;
+  }
+  table td::before {
+    content:attr(data-label);
+    display:block;
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    color:var(--muted);
+    font-weight:800;
+    margin-bottom:3px;
+  }
+}
+
+
+/* Japanese-inspired lively theme */
+:root {
+  --navy:#0f2742;
+  --blue:#235d85;
+  --sky:#eaf5fb;
+  --paper:#fffaf2;
+  --ink:#202733;
+  --muted:#657282;
+  --green:#2d7c63;
+  --gold:#d6a545;
+  --line:#e1d8cc;
+  --rose:#f7d7dc;
+  --sakura:#f6b7c6;
+  --torii:#d94b3d;
+  --matcha:#7fa96b;
+  --indigo:#234f7a;
+  --washi:#fff7e7;
+}
+
+body {
+  background:
+    radial-gradient(circle at 8% 8%, rgba(246,183,198,.28), transparent 25%),
+    radial-gradient(circle at 90% 12%, rgba(214,165,69,.22), transparent 22%),
+    radial-gradient(circle at 16% 82%, rgba(127,169,107,.20), transparent 26%),
+    linear-gradient(180deg,#fffaf2 0,#f6fbff 48%,#fffaf2 100%);
+}
+
+.mobile-title {
+  background:
+    linear-gradient(135deg, rgba(15,39,66,.98), rgba(35,79,122,.95)),
+    radial-gradient(circle at 95% 20%, rgba(246,183,198,.5), transparent 24%);
+  border-bottom: 4px solid var(--torii);
+}
+
+.mobile-title::after {
+  content:"";
+  display:block;
+  height:5px;
+  margin-top:10px;
+  background:linear-gradient(90deg,var(--torii),var(--gold),var(--matcha),var(--sakura));
+  border-radius:999px;
+}
+
+nav {
+  background:linear-gradient(90deg,#fff,#fff7e7,#fff) !important;
+}
+
+nav a {
+  color:var(--indigo);
+  border:1px solid transparent;
+}
+
+nav a:hover {
+  background:var(--rose);
+  border-color:rgba(217,75,61,.2);
+}
+
+h2::before {
+  content:"";
+  display:inline-block;
+  width:14px;
+  height:14px;
+  margin-right:10px;
+  border-radius:50%;
+  background:radial-gradient(circle,var(--torii) 0 45%, transparent 46%);
+  box-shadow:18px 0 0 var(--sakura), 36px 0 0 var(--gold);
+  vertical-align:middle;
+}
+
+.kpi:nth-child(1) { border-top:5px solid var(--indigo); }
+.kpi:nth-child(2) { border-top:5px solid var(--sakura); }
+.kpi:nth-child(3) { border-top:5px solid var(--torii); }
+.kpi:nth-child(4) { border-top:5px solid var(--matcha); }
+.kpi:nth-child(5) { border-top:5px solid var(--gold); }
+
+.kpi {
+  background:linear-gradient(180deg,#fff,#fffaf2);
+}
+
+.day-card {
+  background:
+    linear-gradient(180deg,#fff 0%,#fffaf2 100%);
+  border-left:6px solid var(--torii);
+}
+
+.day-card:nth-of-type(2n) { border-left-color:var(--matcha); }
+.day-card:nth-of-type(3n) { border-left-color:var(--gold); }
+.day-card:nth-of-type(4n) { border-left-color:var(--sakura); }
+
+.day-pill {
+  background:linear-gradient(135deg,var(--torii),#b43129);
+}
+
+.badges span,
+.status {
+  background:#fff1d4;
+  color:#7a4b00;
+}
+
+.day-grid div {
+  background:linear-gradient(180deg,#f8fbfd,#fff7e7);
+  border:1px solid rgba(214,165,69,.25);
+}
+
+.callout {
+  background:linear-gradient(90deg,#fff7e7,#fff0f3);
+  border-left-color:var(--torii);
+}
+
+button {
+  background:#fff;
+  border-color:#ead8bd;
+}
+
+button.active,
+button:hover {
+  background:linear-gradient(135deg,var(--torii),var(--indigo));
+  color:#fff;
+}
+
+.table-wrap,
+.panel,
+.season-card,
+.checklist li {
+  background:rgba(255,255,255,.9);
+}
+
+th {
+  background:linear-gradient(90deg,#173f63,#235d85);
+  color:#fff;
+}
+
+tr:nth-child(even) td {
+  background:rgba(255,247,231,.45);
+}
+
+.season-card {
+  border-top:5px solid var(--matcha);
+}
+
+.season-card:nth-child(2n) { border-top-color:var(--sakura); }
+.season-card:nth-child(3n) { border-top-color:var(--gold); }
+.season-card:nth-child(4n) { border-top-color:var(--torii); }
+
+.season-card h4 {
+  color:var(--torii);
+}
+
+.checklist li {
+  border-left:5px solid var(--matcha);
+}
+
+.checklist li:nth-child(2n) { border-left-color:var(--sakura); }
+.checklist li:nth-child(3n) { border-left-color:var(--gold); }
+
+footer {
+  background:linear-gradient(90deg,#0f2742,#173f63);
+  color:#fff;
+}
+
+@media (max-width:760px) {
+  table tr {
+    border-left:5px solid var(--torii);
+    background:linear-gradient(180deg,#fff,#fffaf2);
+  }
+  table tr:nth-child(2n) { border-left-color:var(--matcha); }
+  table tr:nth-child(3n) { border-left-color:var(--gold); }
+}
+
+
+/* Travel map */
+.map-layout {
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  gap:18px;
+  align-items:stretch;
+}
+.tochigi-map-card {
+  background:linear-gradient(180deg,#fff,#fffaf2);
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:16px;
+  box-shadow:0 8px 22px rgba(15,39,66,.06);
+}
+.tochigi-map {
+  width:100%;
+  height:auto;
+  display:block;
+}
+.map-pin circle {
+  fill:#d94b3d;
+  stroke:#fff;
+  stroke-width:4;
+}
+.map-pin text {
+  fill:#fff;
+  font-weight:900;
+  font-size:20px;
+  text-anchor:middle;
+  font-family: Inter, Arial, sans-serif;
+}
+.map-pin.base circle { fill:#0f2742; }
+.map-pin.day1 circle { fill:#d94b3d; }
+.map-pin.day2 circle { fill:#f6b7c6; }
+.map-pin.day3 circle { fill:#2d7c63; }
+.map-pin.day4 circle { fill:#d6a545; }
+.map-pin.day5 circle { fill:#234f7a; }
+.map-pin.day6 circle { fill:#7fa96b; }
+.map-label {
+  font-size:18px;
+  font-weight:800;
+  fill:#0f2742;
+  paint-order:stroke;
+  stroke:#fff;
+  stroke-width:5px;
+  stroke-linejoin:round;
+}
+.map-small {
+  font-size:22px;
+  font-weight:900;
+  fill:#d6a545;
+  letter-spacing:.03em;
+}
+.map-legend {
+  background:linear-gradient(180deg,#fff,#fff7e7);
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:20px;
+  box-shadow:0 8px 22px rgba(15,39,66,.06);
+}
+.map-legend h3 {
+  margin-top:0;
+  color:var(--navy);
+}
+.map-legend ol {
+  padding-left:22px;
+  line-height:1.65;
+}
+@media (max-width:760px) {
+  .map-layout {
+    grid-template-columns:1fr;
+  }
+  .tochigi-map-card,
+  .map-legend {
+    border-radius:16px;
+    padding:12px;
+  }
+  .map-label {
+    font-size:16px;
+  }
+  .map-small {
+    font-size:18px;
+  }
+}
+
+
+.link-note {
+  background:linear-gradient(90deg,#fff7e7,#fff0f3);
+  border-left:5px solid var(--torii);
+  padding:12px 14px;
+  border-radius:12px;
+  color:var(--ink);
+  margin:8px 0 14px;
+}
+</style>
+</head>
+<body>
+<div class="mobile-title">
+  <div>
+    <strong>Tochigi 6-Day Guide</strong>
+    <span>Self-drive itinerary from Utsunomiya</span>
+  </div>
+</div>
+<nav><div class="links">
+  <a href="#overview">Overview</a><a href="#trip-map">Map</a><a href="#itinerary">Itinerary</a><a href="#attractions">Attractions</a><a href="#hotels">Hotels</a><a href="#budget">Budget</a><a href="#logistics">Driving</a><a href="#seasonal">Season</a><a href="#packing">Packing</a><a href="#sources">Sources</a>
+</div></nav>
+<main>
+<section id="overview">
+  <div class="section-head"><div><h2>Trip Overview</h2><p class="hint">Designed for easy daily follow-up on your phone.</p></div></div>
+  <div class="kpi-grid">
+    <div class="kpi"><b>Base</b><span>Utsunomiya</span></div>
+    <div class="kpi"><b>Special night</b><span>Nikko/Kinugawa Onsen</span></div>
+    <div class="kpi"><b>Must-see</b><span>Nikko + Oya + Honda</span></div>
+    <div class="kpi"><b>Car</b><span>5 rental days</span></div>
+    <div class="kpi"><b>Estimated Budget</b><span>$3,175</span></div>
+  </div>
+  <p class="callout"><strong>Recommended strategy:</strong> Stay mostly in Utsunomiya for convenience, but spend one night in Nikko or Kinugawa Onsen for the ryokan and hot spring experience. Prioritize nature, culture, photography, local food, and Honda engineering over theme parks unless you have extra time.</p>
+</section>
+
+
+<section id="trip-map">
+  <div class="section-head">
+    <div>
+      <h2>Weekly Travel Map</h2>
+      <p class="hint">A simple visual route map showing the major Tochigi areas you will cover during the week.</p>
+    </div>
+  </div>
+
+  <div class="map-layout">
+    <div class="tochigi-map-card">
+      <svg class="tochigi-map" viewBox="0 0 760 560" role="img" aria-label="Simplified Tochigi travel map">
+        <defs>
+          <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".18"/>
+          </filter>
+          <linearGradient id="pref" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0%" stop-color="#fff7e7"/>
+            <stop offset="100%" stop-color="#eaf5fb"/>
+          </linearGradient>
+        </defs>
+
+        <path d="M315 40 C410 25 515 70 570 145 C640 242 650 345 590 438 C535 524 410 545 300 510 C195 476 120 382 115 275 C110 165 200 70 315 40 Z"
+              fill="url(#pref)" stroke="#d6a545" stroke-width="4" filter="url(#shadow)"/>
+
+        <path d="M210 250 C270 255 330 275 390 315 C455 358 500 410 545 465" fill="none" stroke="#d94b3d" stroke-width="8" stroke-linecap="round" opacity=".75"/>
+        <path d="M395 315 C420 245 460 195 505 145" fill="none" stroke="#2d7c63" stroke-width="7" stroke-linecap="round" opacity=".75"/>
+        <path d="M390 315 C315 235 260 172 210 115" fill="none" stroke="#234f7a" stroke-width="7" stroke-linecap="round" opacity=".75"/>
+        <path d="M390 315 C330 350 260 390 210 450" fill="none" stroke="#f6b7c6" stroke-width="7" stroke-linecap="round" opacity=".85"/>
+        <path d="M390 315 C455 340 515 350 565 330" fill="none" stroke="#d6a545" stroke-width="7" stroke-linecap="round" opacity=".85"/>
+
+        <g class="map-pin base">
+          <circle cx="390" cy="315" r="22"/>
+          <text x="390" y="322">U</text>
+        </g>
+        <text class="map-label" x="425" y="322">Utsunomiya Base</text>
+
+        <g class="map-pin day1"><circle cx="210" cy="115" r="20"/><text x="210" y="122">3</text></g>
+        <text class="map-label" x="112" y="100">Nikko / Kinugawa</text>
+
+        <g class="map-pin day2"><circle cx="175" cy="190" r="18"/><text x="175" y="197">4</text></g>
+        <text class="map-label" x="82" y="180">Oku-Nikko</text>
+
+        <g class="map-pin day3"><circle cx="505" cy="145" r="20"/><text x="505" y="152">5</text></g>
+        <text class="map-label" x="535" y="150">Nasu Highlands</text>
+
+        <g class="map-pin day4"><circle cx="545" cy="465" r="20"/><text x="545" y="472">6</text></g>
+        <text class="map-label" x="562" y="490">Motegi / Honda</text>
+
+        <g class="map-pin day5"><circle cx="210" cy="450" r="20"/><text x="210" y="457">6</text></g>
+        <text class="map-label" x="76" y="460">South Tochigi</text>
+
+        <g class="map-pin day6"><circle cx="320" cy="345" r="18"/><text x="320" y="352">2</text></g>
+        <text class="map-label" x="180" y="340">Central / Oya</text>
+
+        <text class="map-small" x="330" y="70">Tochigi Prefecture</text>
+      </svg>
+    </div>
+
+    <div class="map-legend">
+      <h3>Route Flow</h3>
+      <ol>
+        <li><strong>Day 1:</strong> Haneda → Tokyo → Utsunomiya</li>
+        <li><strong>Day 2:</strong> Central Tochigi / Oya / Utsunomiya</li>
+        <li><strong>Day 3:</strong> Nikko Heritage + onsen ryokan</li>
+        <li><strong>Day 4:</strong> Oku-Nikko scenic mountain drive</li>
+        <li><strong>Day 5:</strong> Nasu Highlands and Shiobara area</li>
+        <li><strong>Day 6:</strong> Motegi Honda Collection Hall, then South Tochigi if time allows</li>
+      </ol>
+      <p class="callout"><strong>How to use this map:</strong> Utsunomiya stays as your main hub. The only recommended hotel move is the Nikko/Kinugawa onsen night, so you avoid packing and unpacking every day.</p>
+    </div>
+  </div>
+</section>
+
+<section id="itinerary">
+  <div class="section-head"><div><h2>Day-by-Day Itinerary</h2><p class="hint">Use the checkboxes to track progress. Progress saves in this browser.</p></div></div>
+  
+    <article class="day-card" id="day-1">
+      <div class="day-head">
+        <div><span class="day-pill">Day 1</span><h3>Arrival + Utsunomiya</h3></div>
+        <div class="badges"><span>Low</span><span>Utsunomiya</span></div>
+      </div>
+      <div class="day-grid">
+        <div><strong>Start</strong><p>Haneda</p></div>
+        <div><strong>Morning</strong><p>Arrive Haneda, transfer to Tokyo Station, Shinkansen to Utsunomiya</p></div>
+        <div><strong>Lunch</strong><p>Light station meal</p></div>
+        <div><strong>Afternoon</strong><p>Pick up rental car; check in</p></div>
+        <div><strong>Evening</strong><p>Utsunomiya Gyoza and short walk near station</p></div>
+        <div><strong>Decision note</strong><p>Do not over-plan after international flight.</p></div>
+      </div>
+      <label class="check"><input type="checkbox" data-check="day-1"> Mark day as completed</label>
+    </article>
+    
+    <article class="day-card" id="day-2">
+      <div class="day-head">
+        <div><span class="day-pill">Day 2</span><h3>Central Tochigi / Course 4</h3></div>
+        <div class="badges"><span>Low-Medium</span><span>Utsunomiya</span></div>
+      </div>
+      <div class="day-grid">
+        <div><strong>Start</strong><p>Utsunomiya</p></div>
+        <div><strong>Morning</strong><p>Oya History Museum and Oya Temple</p></div>
+        <div><strong>Lunch</strong><p>Utsunomiya Gyoza</p></div>
+        <div><strong>Afternoon</strong><p>Wakayama Farm bamboo forest or Ryumon Falls; Kitsuregawa Onsen if time</p></div>
+        <div><strong>Evening</strong><p>Utsunomiya cocktails/jazz or early rest</p></div>
+        <div><strong>Decision note</strong><p>Good first driving day because attractions are near base.</p></div>
+      </div>
+      <label class="check"><input type="checkbox" data-check="day-2"> Mark day as completed</label>
+    </article>
+    
+    <article class="day-card" id="day-3">
+      <div class="day-head">
+        <div><span class="day-pill">Day 3</span><h3>Nikko Heritage / Course 1</h3></div>
+        <div class="badges"><span>Medium</span><span>Nikko or Kinugawa Onsen</span></div>
+      </div>
+      <div class="day-grid">
+        <div><strong>Start</strong><p>Utsunomiya</p></div>
+        <div><strong>Morning</strong><p>Toshogu Shrine, Rinno-ji Temple, Futarasan Shrine</p></div>
+        <div><strong>Lunch</strong><p>Nikko town</p></div>
+        <div><strong>Afternoon</strong><p>Shinkyo Bridge, Imperial Villa, Cedar Avenue or Kirifuri Highlands</p></div>
+        <div><strong>Evening</strong><p>Ryokan dinner + onsen</p></div>
+        <div><strong>Decision note</strong><p>Best night to move hotels for onsen atmosphere.</p></div>
+      </div>
+      <label class="check"><input type="checkbox" data-check="day-3"> Mark day as completed</label>
+    </article>
+    
+    <article class="day-card" id="day-4">
+      <div class="day-head">
+        <div><span class="day-pill">Day 4</span><h3>Oku-Nikko Scenic / Course 1</h3></div>
+        <div class="badges"><span>Medium-High</span><span>Utsunomiya</span></div>
+      </div>
+      <div class="day-grid">
+        <div><strong>Start</strong><p>Nikko/Kinugawa</p></div>
+        <div><strong>Morning</strong><p>Lake Chuzenji, Mt. Nantai viewpoints, Kegon Falls</p></div>
+        <div><strong>Lunch</strong><p>Lake Chuzenji area</p></div>
+        <div><strong>Afternoon</strong><p>Ryuzu Falls, Oku-Nikko wetland or Kirifuri Highland</p></div>
+        <div><strong>Evening</strong><p>Return to Utsunomiya</p></div>
+        <div><strong>Decision note</strong><p>Most scenic mountain driving. Watch weather.</p></div>
+      </div>
+      <label class="check"><input type="checkbox" data-check="day-4"> Mark day as completed</label>
+    </article>
+    
+    <article class="day-card" id="day-5">
+      <div class="day-head">
+        <div><span class="day-pill">Day 5</span><h3>Nasu Area / Course 2</h3></div>
+        <div class="badges"><span>High</span><span>Utsunomiya</span></div>
+      </div>
+      <div class="day-grid">
+        <div><strong>Start</strong><p>Utsunomiya</p></div>
+        <div><strong>Morning</strong><p>Mt. Chausu Ropeway, Sessho-seki volcanic area</p></div>
+        <div><strong>Lunch</strong><p>Nasu cafe/dairy farm lunch</p></div>
+        <div><strong>Afternoon</strong><p>Momijidani Suspension Bridge, Nasu Senbonmatsu Farm or Shiobara Onsen</p></div>
+        <div><strong>Evening</strong><p>Return to Utsunomiya</p></div>
+        <div><strong>Decision note</strong><p>Prioritize mountains and onsen over amusement park if time is tight.</p></div>
+      </div>
+      <label class="check"><input type="checkbox" data-check="day-5"> Mark day as completed</label>
+    </article>
+    
+    <article class="day-card" id="day-6">
+      <div class="day-head">
+        <div><span class="day-pill">Day 6</span><h3>Motegi + South Tochigi</h3></div>
+        <div class="badges"><span>High</span><span>Departure or airport hotel</span></div>
+      </div>
+      <div class="day-grid">
+        <div><strong>Start</strong><p>Utsunomiya</p></div>
+        <div><strong>Morning</strong><p>Honda Collection Hall at Mobility Resort Motegi</p></div>
+        <div><strong>Lunch</strong><p>Motegi/Mashiko area</p></div>
+        <div><strong>Afternoon</strong><p>Option A: Mashiko Pottery; Option B: Ashikaga Flower Park + Ashikaga Gakko; Option C: Kuranomachi</p></div>
+        <div><strong>Evening</strong><p>Return car, Shinkansen to Tokyo/Haneda</p></div>
+        <div><strong>Decision note</strong><p>Best day depends on flight time. If early flight, move to Haneda night before.</p></div>
+      </div>
+      <label class="check"><input type="checkbox" data-check="day-6"> Mark day as completed</label>
+    </article>
+    
+</section>
+
+<section id="attractions">
+  <div class="section-head"><div><h2>Attraction Ranking</h2><p class="hint">Filter by area while planning each day.</p></div></div>
+  <div class="toolbar">
+    <button class="filter active" data-filter="all">All</button>
+    <button class="filter" data-filter="nikko">Nikko</button>
+    <button class="filter" data-filter="central">Central</button>
+    <button class="filter" data-filter="nasu">Nasu</button>
+    <button class="filter" data-filter="motegi">Motegi</button>
+    <button class="filter" data-filter="south">South</button>
+    <button class="filter" data-filter="east">East</button>
+  </div>
+  <p class="link-note"><strong>Attraction links updated:</strong> each attraction now has a Website link for public information and a Map link for Google Maps navigation/search. Some Website links use a public Google Search when an official page is unavailable or inconsistent.</p>
+  <div class="table-wrap">
+    <table id="attraction-table">
+      <thead><tr><th>Priority</th><th>Attraction</th><th>Area</th><th>Category</th><th>Best For</th><th>Time</th><th>Season</th><th>Status</th><th>Website</th><th>Map</th></tr></thead>
+      <tbody><tr data-area="nikko" data-keep="keep"><td>1</td><td><strong>Nikko Toshogu Shrine</strong></td><td>Nikko</td><td>World Heritage</td><td>Culture, photography</td><td>2-3 hrs</td><td>Year-round; autumn is very popular</td><td><span class="status">Keep</span></td><td><a href="https://www.visitnikko.jp/spots/nikko-toshogu-shrine/" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Nikko%20Toshogu%20Shrine%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="nikko" data-keep="keep"><td>2</td><td><strong>Rinno-ji Temple + Futarasan Shrine</strong></td><td>Nikko</td><td>World Heritage</td><td>Culture</td><td>1.5-2 hrs</td><td>Year-round</td><td><span class="status">Keep</span></td><td><a href="https://www.visitnikko.jp/spots/nikkosan-rinnoji-temple/" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Rinnoji%20Temple%20Futarasan%20Shrine%20Nikko%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="nikko" data-keep="keep"><td>3</td><td><strong>Shinkyo Bridge</strong></td><td>Nikko</td><td>Scenic/Heritage</td><td>Photography</td><td>30-45 min</td><td>Autumn and snow can be beautiful</td><td><span class="status">Keep</span></td><td><a href="https://www.visitnikko.jp/spots/shinkyo-bridge/" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Shinkyo%20Bridge%20Nikko%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="nikko" data-keep="keep"><td>4</td><td><strong>Lake Chuzenji</strong></td><td>Nikko</td><td>Nature</td><td>Scenic drive, photos</td><td>1-2 hrs</td><td>Best in autumn or clear weather</td><td><span class="status">Keep</span></td><td><a href="https://www.visitnikko.jp/spots/lake-chuzenji/" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Lake%20Chuzenji%20Nikko%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="nikko" data-keep="keep"><td>5</td><td><strong>Kegon Falls</strong></td><td>Nikko</td><td>Nature</td><td>Waterfall, photo</td><td>1 hr</td><td>Check fog/visibility</td><td><span class="status">Keep</span></td><td><a href="https://www.visitnikko.jp/spots/kegon-falls/" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Kegon%20Falls%20Nikko%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="nikko/kinugawa" data-keep="keep"><td>6</td><td><strong>Kinugawa Onsen</strong></td><td>Nikko/Kinugawa</td><td>Onsen</td><td>Ryokan night</td><td>Overnight</td><td>Best as overnight experience</td><td><span class="status">Keep</span></td><td><a href="https://www.visitnikko.jp/en/areas/kinugawa-kawaji-onsen/" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Kinugawa%20Onsen%20Nikko%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="central" data-keep="keep"><td>7</td><td><strong>Oya History Museum</strong></td><td>Central</td><td>Museum/Nature</td><td>Underground quarry, photos</td><td>1.5-2 hrs</td><td>Good rainy-day choice</td><td><span class="status">Keep</span></td><td><a href="https://oya909.co.jp/" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Oya%20History%20Museum%20Utsunomiya%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="central" data-keep="keep"><td>8</td><td><strong>Wakayama Farm Bamboo Forest</strong></td><td>Central</td><td>Nature</td><td>Walking, photos</td><td>1-1.5 hrs</td><td>Evening illumination on some days</td><td><span class="status">Keep</span></td><td><a href="https://www.wakayama-farm.com/" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Wakayama%20Farm%20Bamboo%20Forest%20Utsunomiya%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="central" data-keep="keep"><td>9</td><td><strong>Utsunomiya Gyoza</strong></td><td>Central</td><td>Food</td><td>Local specialty</td><td>Meal</td><td>Any season</td><td><span class="status">Keep</span></td><td><a href="https://www.google.com/search?q=Utsunomiya+Gyoza+official+tourism" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Utsunomiya%20Gyoza%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="motegi/eastern" data-keep="keep"><td>10</td><td><strong>Honda Collection Hall</strong></td><td>Motegi/Eastern</td><td>Museum/Engineering</td><td>Honda cars, motorcycles, racing history</td><td>2-4 hrs</td><td>Check official calendar</td><td><span class="status">Keep</span></td><td><a href="https://www.mr-motegi.jp/eng/collection-hall/" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Honda%20Collection%20Hall%20Mobility%20Resort%20Motegi%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="motegi/eastern" data-keep="keep"><td>11</td><td><strong>Mobility Resort Motegi</strong></td><td>Motegi/Eastern</td><td>Motorsport/Outdoors</td><td>Track, activities, Honda museum</td><td>Half-full day</td><td>Check closures/events</td><td><span class="status">Keep</span></td><td><a href="https://www.mr-motegi.jp/eng/" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Mobility%20Resort%20Motegi%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="nasu" data-keep="keep"><td>12</td><td><strong>Mt. Chausu Ropeway</strong></td><td>Nasu</td><td>Mountain/Nature</td><td>Volcano, views</td><td>2-3 hrs</td><td>Weather-sensitive</td><td><span class="status">Keep</span></td><td><a href="https://www.nasu-ropeway.jp/en/" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Mt%20Chausu%20Ropeway%20Nasu%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="nasu" data-keep="keep"><td>13</td><td><strong>Sessho-seki</strong></td><td>Nasu</td><td>Volcanic site</td><td>Short walk, geology</td><td>30-60 min</td><td>Good with Mt. Chausu</td><td><span class="status">Keep</span></td><td><a href="https://www.google.com/search?q=Sessho-seki+Nasu+official" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Sessho-seki%20Nasu%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="nasu/shiobara" data-keep="keep"><td>14</td><td><strong>Momijidani Suspension Bridge</strong></td><td>Nasu/Shiobara</td><td>Scenic</td><td>Bridge, lake, autumn colors</td><td>1 hr</td><td>Best in autumn</td><td><span class="status">Keep</span></td><td><a href="https://www.google.com/search?q=Momijidani+Suspension+Bridge+Nasushiobara+official" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Momijidani%20Suspension%20Bridge%20Nasushiobara%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="nasu/shiobara" data-keep="keep"><td>15</td><td><strong>Shiobara Onsen</strong></td><td>Nasu/Shiobara</td><td>Onsen</td><td>Post-drive relaxation</td><td>1-2 hrs or overnight</td><td>Year-round</td><td><span class="status">Keep</span></td><td><a href="https://www.siobara.or.jp/" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Shiobara%20Onsen%20Nasushiobara%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="south" data-keep="seasonal keep"><td>16</td><td><strong>Ashikaga Flower Park</strong></td><td>South</td><td>Flower garden</td><td>Wisteria, illumination</td><td>2-3 hrs</td><td>Best spring wisteria or winter lights</td><td><span class="status">Seasonal Keep</span></td><td><a href="https://www.ashikaga.co.jp/english/" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Ashikaga%20Flower%20Park%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="south" data-keep="keep if nearby"><td>17</td><td><strong>Ashikaga Gakko</strong></td><td>South</td><td>History</td><td>Japan&#x27;s old school, quiet gardens</td><td>1-1.5 hrs</td><td>Year-round</td><td><span class="status">Keep if nearby</span></td><td><a href="https://www.ashikaga-gakko.jp/" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Ashikaga%20Gakko%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="south" data-keep="keep if nearby"><td>18</td><td><strong>Kuranomachi Historic District</strong></td><td>South</td><td>Historic town</td><td>Warehouse streets, boat</td><td>1.5-2 hrs</td><td>Good afternoon walk</td><td><span class="status">Keep if nearby</span></td><td><a href="https://www.google.com/search?q=Kuranomachi+Tochigi+City+official+tourism" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Kuranomachi%20Historic%20District%20Tochigi%20City%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="eastern" data-keep="optional"><td>19</td><td><strong>Mashiko Ware</strong></td><td>Eastern</td><td>Craft</td><td>Pottery, shopping</td><td>1.5-3 hrs</td><td>Good paired with Motegi</td><td><span class="status">Optional</span></td><td><a href="https://www.google.com/search?q=Mashiko%20Ware%20Tochigi%20Japan%20official%20tourism" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Mashiko%20Ware%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="kinugawa" data-keep="optional"><td>20</td><td><strong>Tobu World Square</strong></td><td>Kinugawa</td><td>Theme park</td><td>Miniature landmarks</td><td>2-3 hrs</td><td>Good with kids or rainy day</td><td><span class="status">Optional</span></td><td><a href="https://www.google.com/search?q=Tobu%20World%20Square%20Tochigi%20Japan%20official%20tourism" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Tobu%20World%20Square%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="kinugawa" data-keep="optional"><td>21</td><td><strong>Edo Wonderland</strong></td><td>Kinugawa</td><td>Theme park/Culture</td><td>Edo cosplay, shows</td><td>3-5 hrs</td><td>Good if you want immersive attraction</td><td><span class="status">Optional</span></td><td><a href="https://www.google.com/search?q=Edo%20Wonderland%20Tochigi%20Japan%20official%20tourism" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Edo%20Wonderland%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr><tr data-area="nasu" data-keep="skip/optional"><td>22</td><td><strong>Nasu Highland Park</strong></td><td>Nasu</td><td>Amusement park</td><td>Rides</td><td>Half day</td><td>Lower priority for this trip style</td><td><span class="status">Skip/Optional</span></td><td><a href="https://www.google.com/search?q=Nasu%20Highland%20Park%20Tochigi%20Japan%20official%20tourism" target="_blank" rel="noopener">Website</a></td><td><a href="https://www.google.com/maps/search/?api=1&query=Nasu%20Highland%20Park%20Tochigi%20Japan" target="_blank" rel="noopener">Google Maps</a></td></tr></tbody>
+    </table>
+  </div>
+</section>
+
+<section id="hotels">
+  <div class="section-head"><div><h2>Hotel Strategy</h2><p class="hint">One hotel move only, for the onsen experience.</p></div></div>
+  <div class="table-wrap"><table><thead><tr><th>Night</th><th>Location</th><th>Style</th><th>Why</th><th>Pros</th><th>Cons</th><th>Notes</th></tr></thead><tbody>
+    <tr>
+      <td>1</td><td><strong>Utsunomiya</strong></td>
+      <td>Business hotel near station</td><td>Easy after Shinkansen and car pickup</td>
+      <td>Convenient restaurants, rail access</td><td>Less scenic than onsen town</td><td>Keep arrival simple.</td>
+    </tr>
+    <tr>
+      <td>2</td><td><strong>Utsunomiya</strong></td>
+      <td>Business hotel near station</td><td>Good base for Central Tochigi</td>
+      <td>No repacking</td><td>City stay</td><td>Great for gyoza/cocktails.</td>
+    </tr>
+    <tr>
+      <td>3</td><td><strong>Nikko or Kinugawa Onsen</strong></td>
+      <td>Ryokan/onsen hotel</td><td>Classic Japanese onsen evening</td>
+      <td>Memorable, quiet after day-trippers leave</td><td>More expensive, check-in timing matters</td><td>Book dinner-included plan.</td>
+    </tr>
+    <tr>
+      <td>4</td><td><strong>Utsunomiya</strong></td>
+      <td>Business hotel near station</td><td>Reset after Nikko scenic driving</td>
+      <td>Central location</td><td>Need drive back from Nikko</td><td>Return before too late.</td>
+    </tr>
+    <tr>
+      <td>5</td><td><strong>Utsunomiya</strong></td>
+      <td>Business hotel near station</td><td>Good base for Nasu and Motegi</td>
+      <td>Easy last-night logistics</td><td>Longer Nasu day trip</td><td>Consider airport hotel only if very early flight.</td>
+    </tr>
+    <tr>
+      <td>6</td><td><strong>Departure / Haneda option</strong></td>
+      <td>Airport hotel if needed</td><td>Only if flight is early next morning</td>
+      <td>Reduces risk</td><td>Less time in Tochigi</td><td>Depends on flight time.</td>
+    </tr></tbody></table></div>
+</section>
+
+<section id="budget">
+  <div class="section-head"><div><h2>Budget Planner</h2><p class="hint">Estimates from the workbook. Replace with actual prices when booked.</p></div><h2>$3,175</h2></div>
+  <div class="table-wrap"><table><thead><tr><th>Category</th><th>Item</th><th>Unit</th><th>Qty</th><th>Total</th><th>Priority</th><th>Notes</th></tr></thead><tbody>
+    <tr>
+      <td>Flights</td><td>LAX-HND roundtrip airfare</td><td>$1000</td>
+      <td>1</td><td>$1000</td><td>Required</td><td>Replace with actual fare</td>
+    </tr>
+    <tr>
+      <td>Rail</td><td>Haneda/Tokyo local transfers</td><td>$15</td>
+      <td>2</td><td>$30</td><td>Required</td><td>Airport to Tokyo/rail connections</td>
+    </tr>
+    <tr>
+      <td>Rail</td><td>Tokyo-Utsunomiya Shinkansen roundtrip</td><td>$70</td>
+      <td>1</td><td>$70</td><td>Required</td><td>Approximate; verify fare</td>
+    </tr>
+    <tr>
+      <td>Car</td><td>Rental car</td><td>$65</td>
+      <td>5</td><td>$325</td><td>Required</td><td>Compact car estimate</td>
+    </tr>
+    <tr>
+      <td>Car</td><td>Fuel</td><td>$50</td>
+      <td>1</td><td>$50</td><td>Required</td><td>Depends on route</td>
+    </tr>
+    <tr>
+      <td>Car</td><td>Tolls/parking</td><td>$120</td>
+      <td>1</td><td>$120</td><td>Required</td><td>Expressways and attraction parking</td>
+    </tr>
+    <tr>
+      <td>Hotel</td><td>Utsunomiya hotel nights</td><td>$90</td>
+      <td>4</td><td>$360</td><td>Required</td><td>Business hotel estimate</td>
+    </tr>
+    <tr>
+      <td>Hotel</td><td>Nikko/Kinugawa ryokan</td><td>$220</td>
+      <td>1</td><td>$220</td><td>Recommended</td><td>Dinner/breakfast often included</td>
+    </tr>
+    <tr>
+      <td>Food</td><td>Meals/snacks</td><td>$65</td>
+      <td>6</td><td>$390</td><td>Required</td><td>Mix of casual and nice meals</td>
+    </tr>
+    <tr>
+      <td>Admissions</td><td>Temples/museums/parks</td><td>$120</td>
+      <td>1</td><td>$120</td><td>Required</td><td>Oya, Nikko, Honda, etc.</td>
+    </tr>
+    <tr>
+      <td>Onsen</td><td>Day-use onsen</td><td>$20</td>
+      <td>2</td><td>$40</td><td>Recommended</td><td>If not included at ryokan</td>
+    </tr>
+    <tr>
+      <td>Shopping</td><td>Souvenirs/outlets/pottery</td><td>$200</td>
+      <td>1</td><td>$200</td><td>Optional</td><td>Set your own limit</td>
+    </tr>
+    <tr>
+      <td>Buffer</td><td>Contingency</td><td>$250</td>
+      <td>1</td><td>$250</td><td>Recommended</td><td>Weather/logistics buffer</td>
+    </tr></tbody></table></div>
+</section>
+
+<section id="logistics">
+  <div class="section-head"><div><h2>Driving & Logistics</h2><p class="hint">Use this to manage daily risk and route choices.</p></div></div>
+  <div class="table-wrap"><table><thead><tr><th>Route/Day</th><th>Base</th><th>Primary Stops</th><th>Drive Intensity</th><th>Watchout</th><th>Planning Notes</th></tr></thead><tbody>
+    <tr><td>Day 1 Arrival</td><td>Haneda → Utsunomiya</td><td>Airport transfer, Shinkansen, rental car pickup</td>
+    <td>Low</td><td>Jet lag, luggage</td><td>Pick rental car near Utsunomiya Station.</td></tr>
+    <tr><td>Day 2 Central</td><td>Utsunomiya</td><td>Oya, Wakayama, Kitsuregawa/Ryumon</td>
+    <td>Low-Medium</td><td>Attraction hours</td><td>Good day to learn Japanese driving conditions.</td></tr>
+    <tr><td>Day 3 Nikko Heritage</td><td>Utsunomiya → Nikko</td><td>UNESCO shrine area, Shinkyo, Imperial Villa</td>
+    <td>Medium</td><td>Parking/crowds</td><td>Start early to avoid tour buses.</td></tr>
+    <tr><td>Day 4 Oku-Nikko</td><td>Nikko → Oku-Nikko → Utsunomiya</td><td>Lake Chuzenji, Kegon, Ryuzu, Kirifuri</td>
+    <td>Medium-High</td><td>Mountain road/weather</td><td>Avoid driving late if fog/snow.</td></tr>
+    <tr><td>Day 5 Nasu</td><td>Utsunomiya → Nasu/Shiobara</td><td>Mt. Chausu, bridge, onsen, farms</td>
+    <td>High</td><td>Weather affects ropeway</td><td>Have lower-altitude backup.</td></tr>
+    <tr><td>Day 6 Motegi/South</td><td>Utsunomiya → Motegi → optional South</td><td>Honda Collection Hall, Mashiko/Ashikaga</td>
+    <td>High</td><td>Flight timing</td><td>Do Honda first, then decide optional stops.</td></tr></tbody></table></div>
+</section>
+
+<section id="seasonal">
+  <div class="section-head"><div><h2>Seasonal Planner</h2><p class="hint">Adjust priorities based on month and weather.</p></div></div>
+  <div class="season-grid">
+    <div class="season-card">
+      <h4>Mar-Apr</h4>
+      <p><strong>Best areas:</strong> South, Central, Nikko</p>
+      <p><strong>Prioritize:</strong> Ashikaga, Tenpyo no Oka, Ujie Yuyu, Oya</p>
+      <p><strong>Caution:</strong> Crowds around bloom peaks</p>
+      <p><strong>Adjustment:</strong> Make South Tochigi a full day</p>
+    </div>
+    <div class="season-card">
+      <h4>Late Apr-May</h4>
+      <p><strong>Best areas:</strong> South</p>
+      <p><strong>Prioritize:</strong> Ashikaga Flower Park</p>
+      <p><strong>Caution:</strong> Very crowded at peak wisteria</p>
+      <p><strong>Adjustment:</strong> Promote Ashikaga to Tier 1</p>
+    </div>
+    <div class="season-card">
+      <h4>Jun-Jul</h4>
+      <p><strong>Best areas:</strong> Nikko, Nasu</p>
+      <p><strong>Prioritize:</strong> Kirifuri, Lake Chuzenji, Nasu</p>
+      <p><strong>Caution:</strong> Rainy season</p>
+      <p><strong>Adjustment:</strong> Keep rainy-day backup: Oya/Honda</p>
+    </div>
+    <div class="season-card">
+      <h4>Aug</h4>
+      <p><strong>Best areas:</strong> Nasu, Oku-Nikko</p>
+      <p><strong>Prioritize:</strong> Nasu, Lake Chuzenji</p>
+      <p><strong>Caution:</strong> Summer crowds</p>
+      <p><strong>Adjustment:</strong> Start early; onsen evening</p>
+    </div>
+    <div class="season-card">
+      <h4>Oct-Nov</h4>
+      <p><strong>Best areas:</strong> Nikko, Nasu, Shiobara</p>
+      <p><strong>Prioritize:</strong> Irohazaka, Kegon, Momijidani Bridge</p>
+      <p><strong>Caution:</strong> Traffic congestion</p>
+      <p><strong>Adjustment:</strong> Stay in Nikko/Kinugawa to reduce stress</p>
+    </div>
+    <div class="season-card">
+      <h4>Dec-Feb</h4>
+      <p><strong>Best areas:</strong> Kinugawa, Oya, Honda, Ashikaga</p>
+      <p><strong>Prioritize:</strong> Honda Hall, Oya, Ashikaga illumination</p>
+      <p><strong>Caution:</strong> Snow/ice in mountain areas</p>
+      <p><strong>Adjustment:</strong> Avoid high mountain routes if weather is bad</p>
+    </div></div>
+</section>
+
+<section id="packing">
+  <div class="section-head"><div><h2>Packing & Useful Japanese</h2><p class="hint">Checklist saves locally on your device.</p></div></div>
+  <ul class="checklist">
+    <li>
+      <label><input type="checkbox" data-check="pack-international-driving-permit">
+      <span><strong>International Driving Permit</strong> — 国際運転免許証<br><small>Required to rent/drive depending on license country.</small></span></label>
+    </li>
+    <li>
+      <label><input type="checkbox" data-check="pack-passport-license-credit-card">
+      <span><strong>Passport, license, credit card</strong><br><small>Keep copies offline.</small></span></label>
+    </li>
+    <li>
+      <label><input type="checkbox" data-check="pack-offline-google-maps-apple-maps">
+      <span><strong>Offline Google Maps / Apple Maps</strong><br><small>Download Tochigi, Nikko, Nasu, Utsunomiya.</small></span></label>
+    </li>
+    <li>
+      <label><input type="checkbox" data-check="pack-etc-card-request">
+      <span><strong>ETC card request</strong> — ETCカードはありますか？<br><small>Ask rental company if ETC card is available.</small></span></label>
+    </li>
+    <li>
+      <label><input type="checkbox" data-check="pack-do-you-have-an-english-menu">
+      <span><strong>Do you have an English menu?</strong> — 英語のメニューはありますか？<br><small>Useful outside Tokyo.</small></span></label>
+    </li>
+    <li>
+      <label><input type="checkbox" data-check="pack-one-order-of-gyoza-please">
+      <span><strong>One order of gyoza, please</strong> — 餃子を一つお願いします<br><small>Utsunomiya essential.</small></span></label>
+    </li>
+    <li>
+      <label><input type="checkbox" data-check="pack-is-day-use-bathing-available">
+      <span><strong>Is day-use bathing available?</strong> — 日帰り温泉はできますか？<br><small>For Shiobara/Kitsuregawa.</small></span></label>
+    </li>
+    <li>
+      <label><input type="checkbox" data-check="pack-i-have-a-reservation">
+      <span><strong>I have a reservation</strong> — 予約しています<br><small>At check-in.</small></span></label>
+    </li>
+    <li>
+      <label><input type="checkbox" data-check="pack-is-the-road-icy">
+      <span><strong>Is the road icy?</strong> — 道は凍っていますか？<br><small>Winter mountain driving.</small></span></label>
+    </li>
+    <li>
+      <label><input type="checkbox" data-check="pack-comfortable-walking-shoes">
+      <span><strong>Comfortable walking shoes</strong><br><small>Nikko and Oya involve walking/stairs.</small></span></label>
+    </li>
+    <li>
+      <label><input type="checkbox" data-check="pack-light-rain-jacket">
+      <span><strong>Light rain jacket</strong><br><small>Mountains can change quickly.</small></span></label>
+    </li>
+    <li>
+      <label><input type="checkbox" data-check="pack-car-charger-phone-mount">
+      <span><strong>Car charger / phone mount</strong><br><small>Very useful for driving.</small></span></label>
+    </li></ul>
+</section>
+
+<section id="sources">
+  <div class="section-head"><div><h2>Sources & Booking Checks</h2><p class="hint">Confirm current hours, closures, and prices before final booking.</p></div></div>
+  <div class="panel"><ul>
+    <li><strong>Official Tochigi Tourism</strong>: <a href="https://www.visit-tochigi.com/" target="_blank" rel="noopener">https://www.visit-tochigi.com/</a> — Area overview and attraction cross-check</li>
+    <li><strong>Japan National Tourism Organization - Tochigi</strong>: <a href="https://www.japan.travel/en/destinations/kanto/tochigi/" target="_blank" rel="noopener">https://www.japan.travel/en/destinations/kanto/tochigi/</a> — Tochigi/Nikko/Utsunomiya overview</li>
+    <li><strong>JNTO - Utsunomiya Area</strong>: <a href="https://www.japan.travel/en/destinations/kanto/tochigi/utsunomiya-area/" target="_blank" rel="noopener">https://www.japan.travel/en/destinations/kanto/tochigi/utsunomiya-area/</a> — Oya Museum, Oya-ji, Wakayama Farm</li>
+    <li><strong>Honda Collection Hall</strong>: <a href="https://www.mr-motegi.jp/eng/collection-hall/" target="_blank" rel="noopener">https://www.mr-motegi.jp/eng/collection-hall/</a> — Honda museum details</li>
+    <li><strong>Honda Collection Hall Renewal News</strong>: <a href="https://global.honda/en/topics/2024/c_2024-02-15eng.html" target="_blank" rel="noopener">https://global.honda/en/topics/2024/c_2024-02-15eng.html</a> — Confirmed Honda Collection Hall at Mobility Resort Motegi and 2024 renewal</li>
+    <li><strong>Nearby Tokyo - Utsunomiya</strong>: <a href="https://nearbytokyo.com/destinations/tochigi/utsunomiya-city/" target="_blank" rel="noopener">https://nearbytokyo.com/destinations/tochigi/utsunomiya-city/</a> — Utsunomiya food/nightlife context</li>
+    <li><strong>User-provided brochure photos</strong>: Uploaded in ChatGPT conversation — Course/area ranking and attraction list</li></ul></div>
+</section>
+</main>
+<footer>Built from the Professional Tochigi Travel Workbook. Save this HTML file to your phone or laptop for offline reference.</footer>
+<script>
+const checks = document.querySelectorAll('input[type="checkbox"][data-check]');
+checks.forEach(cb => {
+  const key = 'tochigi-' + cb.dataset.check;
+  cb.checked = localStorage.getItem(key) === '1';
+  cb.addEventListener('change', () => localStorage.setItem(key, cb.checked ? '1' : '0'));
+});
+const buttons = document.querySelectorAll('.filter');
+const rows = document.querySelectorAll('#attraction-table tbody tr');
+buttons.forEach(btn => btn.addEventListener('click', () => {
+  buttons.forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const f = btn.dataset.filter;
+  rows.forEach(r => {
+    const area = r.dataset.area || '';
+    r.style.display = (f === 'all' || area.includes(f)) ? '' : 'none';
+  });
+}));
+
+function applyMobileTableLabels() {
+  document.querySelectorAll('table').forEach(table => {
+    const headers = Array.from(table.querySelectorAll('thead th')).map(th => th.textContent.trim());
+    table.querySelectorAll('tbody tr').forEach(row => {
+      Array.from(row.children).forEach((td, i) => td.setAttribute('data-label', headers[i] || ''));
+    });
+  });
+}
+applyMobileTableLabels();
+</script>
+</body>
+</html>
